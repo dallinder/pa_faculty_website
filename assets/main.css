@@ -1,0 +1,116 @@
+body {
+	line-height: 150%;
+	letter-spacing: .5px;
+}
+/*Navigation Styles*/
+
+nav {
+	/*background-color: blue;*/
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+nav img {
+	width: 30px;
+}
+
+/*Jumbotron styles*/
+
+.orch .jumbotron {
+	background: url("images/violin-background.jpg") center;
+	background-size: 100%;
+	color: #fff;
+}
+
+.band .jumbotron {
+	background: url("images/band.jpg") center;
+	background-size: 100%;
+	color: #fff;
+}
+
+.choir .jumbotron {
+	background: url("images/choir.gif") center no-repeat;
+	background-size: 60%;
+	color: #fff;
+}
+
+.choir h1 {
+	color: #000;
+}
+
+.guitar .jumbotron {
+	background: url("images/classical-guitar.jpg") center;
+	background-size: 100%;
+	color: #fff;
+}
+
+.theater .jumbotron {
+	background: url("images/theatre-masks.png") center;
+	background-size: 10%;
+	color: #fff;
+	font-weight: bold;
+}
+
+.theater h1 {
+	color: #000;
+}
+
+.jumbotron h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+/* General Styles */
+
+.container {
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+}
+
+.profile {
+	width: 20%;
+	border-radius: 50%;
+}
+
+.container h1 {
+	font-weight: lighter;
+}
+
+/*Paragraph and h1 styles*/
+
+img,
+p {
+	display: inline-block;
+}
+
+p {
+	vertical-align: top;
+	/*float: right;*/
+	width: 70%;
+	font-weight: lighter;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+
+/*Link Styles*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: inherit;
+}
+
+/*Carousel Styles*/
+
+.carousel-item img {
+	max-width: 500px;
+}
+
+#carousel {
+	padding-bottom: 20px;
+}
